@@ -210,7 +210,7 @@ h3.agileinfo_sign {
     letter-spacing: 1px;
     margin-bottom: 20px;
     text-align: center;
-    color: #FF5722;
+    color: #7FFF00;
 }
 h3.agileinfo_sign span {
     font-weight:300;
@@ -281,10 +281,10 @@ a.nav-stylehead {
     font-size: 15px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
-    color: #FF5722;
+    color: #7FFF00;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #FF5722;
+    color: #7FFF00;
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
@@ -306,7 +306,7 @@ a.nav-stylehead {
 .agile_short_dropdown > li > a:hover {
     text-decoration: none;
     background-color: transparent;
-    color:#FF5722;
+    color:#7FFF00;
 }
 .multi-gd-img img {
     margin-top: 60px;
@@ -323,10 +323,10 @@ ul.multi-column-dropdown li a {
     letter-spacing: 1px;
 }
 ul.multi-column-dropdown li a:hover{
-	color:#FF5722;
+	color:#7FFF00;
 }
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    background-color: #FF5722;
+    background-color: #7FFF00;
 }
 /*-- //navigation-dropdown --*/
 /* //navigation */
@@ -349,7 +349,7 @@ a.simpleCart_empty {
 button.w3view-cart {
     outline: none;
     border: none;
-    background: #FF5722;
+    background: #7FFF00;
     width: 48px;
     height: 43px;
     font-size: 24px;
@@ -416,7 +416,7 @@ button.w3view-cart {
 }
 .carousel-caption h2 span, .carousel-caption h3 span{
     font-weight: 800;
-    color: #FF5722;
+    color: #7FFF00;
 }
 .carousel-caption p {
     letter-spacing: 5px;
