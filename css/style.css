@@ -48,7 +48,7 @@ label{
     font-weight: 600;
     padding: 8px;
     letter-spacing: 2px;
-    background: #1accfd;
+    background: #32cd32;
 }
 /* //top-header */
 /*-- header-bottom --*/
@@ -102,10 +102,10 @@ label{
 }
 .agileits_search input[type="search"]{
     outline: none;
-    border: 1px solid #191e21;
+    border: 1px solid #32cd32;
     background: #fff;
     border-right-color: transparent;
-    color: #191e21;
+    color: #32cd32;
     padding: 10px;
     font-size: 14px;
 	float: left;
@@ -118,7 +118,7 @@ label{
     height: 42px;
     outline: none;
     box-shadow: none;
-    background: #1accfd;
+    background: #32cd32;
     padding: 0;
     border-radius: inherit;
     -webkit-appearance: none;
@@ -127,7 +127,7 @@ label{
     transition: .5s all;
 }
 .agileits_search .btn-default:hover {
-	background:#FF5722;
+	background:#32cd32;
 }
 .agileits_search span {
     color: #fff;
@@ -196,7 +196,7 @@ label{
     margin: 0;
     font-weight: 700;
     letter-spacing: 1px;
-    background: #1accfd;
+    background: #32cd32;
     color: #fff;
     margin: 20px 0;
 }
@@ -430,16 +430,16 @@ button.w3view-cart {
 	font-weight:600;
 }
 .codes.agileitsbg3 {
-    background: #3498DB;  
+    background: #32cd32;  
     padding-bottom: 10em;
 }
 .codes.agileitsbg4 {
-    background: #2ECC71 ; 
+    background: #32cd32 ; 
     padding-bottom: 10em;
 }
 .carousel.slide.grid_3.grid_4 {  
-    border-top: 10px solid #3ACFD5;
-    border-bottom: 10px solid #3a4ed5;
+    border-top: 10px solid #32cd32;
+    border-bottom: 10px solid #32cd32;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -465,7 +465,7 @@ button.w3view-cart {
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px transparent;
-    background: #1accfd;
+    background: #32cd32;
     border-radius: 4px;
     color: #fff;
     letter-spacing: 2px;
@@ -1385,7 +1385,7 @@ p.footer-main span {
 .copy-right {
     text-align: center;
     padding: 15px 0;
-    background: #FF5722;
+    background: #32cd32;
 }
 .copy-right p {
     color: #fff;
@@ -2062,7 +2062,7 @@ li.subitem1 p {
     margin-top: 10px;
     font-size: 21px;
     letter-spacing: 1px;
-    color: #ff5a5a;
+    color: #32cd32;
 }
 .terms h6 {
     font-size: 20px;
@@ -2160,7 +2160,7 @@ img.zoom-img:hover{
 .about h4 {
     font-size: 30px;
     margin: 13px 0;
-    color: #FF5722;
+    color: #32cd32;
 }
 .wthree_about_grid {
     margin-top: 3em;
@@ -2174,7 +2174,7 @@ img.zoom-img:hover{
 .about h5 {
     text-transform: capitalize;
     font-weight: 200;
-    color: #f44336;
+    color: #32cd32;
     font-size: 1.3em;
     letter-spacing: 2px;
     margin-bottom: .3em;
@@ -2258,7 +2258,7 @@ img.zoom-img:hover{
     border-top: 1px solid #1accfd;
 }
 .product-single-w3l p i {
-    color: #1accfd;
+    color: #32cd32;
     margin-right: 11px;
     font-size: 24px;
 }
@@ -2280,7 +2280,7 @@ img.zoom-img:hover{
 /*-- //single-page --*/
 /*-- checkout --*/
 .checkout-right h4 {
-    color: #FF5722;
+    color: #32cd32;
     font-size: 27px;
     margin-bottom: 30px;
 }
@@ -2292,7 +2292,7 @@ table.timetable_sub {
     background: #000;
     color: #fff;
     font-size: 16px;
-    border-right: 1px solid #ded2d2;
+    border-right: 1px solid #32cd32;
     text-align: center;
     padding: 12px 0;
     letter-spacing: 1px;
@@ -2395,7 +2395,7 @@ td.invert-image a img {
     margin-top: 50px;
 }
 .address_form_agile h4 {
-    color: #1accfd;
+    color: #32cd32;
     font-size: 24px;
     margin-bottom: 30px;
     letter-spacing: 1px;
@@ -2408,7 +2408,7 @@ td.invert-image a img {
     margin-bottom: 20px;
     outline: none;
     border: none;
-    border-bottom: 1px solid #FF5722;
+    border-bottom: 1px solid #32cd32;
     -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.31);
     -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.31);
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.31);
@@ -2451,7 +2451,7 @@ button.submit.check_out:hover {
     display: inline-block;
 }
 .checkout-right-basket a:hover{
-    background: #FF5722;
+    background: #32cd32;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -2477,7 +2477,7 @@ button.submit.check_out:hover {
     outline: none;
 }
 .agileits_w3layouts_tab2 input[type="email"]:focus,.agileits_w3layouts_tab2 input[type="password"]:focus,.creditly-wrapper .form-control:focus {
-  border-color: #66afe9;
+  border-color: #32cd32;
   outline: 0;
 }
 .agileits_w3layouts_tab2 input[type="submit"] {
@@ -2488,7 +2488,7 @@ button.submit.check_out:hover {
     background: #1accfd;
     font-size: 1.5em;
     color: #fff;
-    border: 1px solid #1accfd;
+    border: 1px solid #32cd32;
     outline: none;
     text-transform: uppercase;
     cursor:pointer;
@@ -2532,7 +2532,7 @@ button.submit.check_out:hover {
 }
 .agile_amount{
 	padding:1em 2em;
-	background:#f71926;
+	background:#32cd32;
 }
 .agile_amount h3{
 	font-size:1.3em;
@@ -2545,7 +2545,7 @@ button.submit.check_out:hover {
 }
 .agile_amount p{
 	font-size:1em;
-	color:#1adeed;
+	color:#32cd32;
 	line-height:1.8em;
 }
 .form-group label {
@@ -2562,14 +2562,14 @@ img.pp-img {
     margin: 10px 0;
 }
 a.btn.btn-primary {
-    background-color: #3a5795;
+    background-color: #32cd32;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     border: none;
 }
 
 .vertical_post h5 {
-    color: #FF5722;
+    color: #32cd32;
     font-size: 20px;
     margin: 0 0 18px 0;
     letter-spacing: 1px;
@@ -2637,7 +2637,7 @@ input[type="radio"], input[type="checkbox"] {
     margin-left: 1em;
 }
 .vertical_post form input[type="submit"], .number-paymk input[type="submit"] {
-    background: #1accfd;
+    background: #32cd32;
     color: #FFFFFF;
     text-align: center;
     padding: 11px 19px;
@@ -3329,7 +3329,7 @@ input[type="radio"], input[type="checkbox"] {
 		text-align: center;
 	}
 	.navbar-default .navbar-toggle {
-		border-color: #FF5722;
+		border-color: #32cd32;
 		border-radius: 1px;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -3381,7 +3381,7 @@ input[type="radio"], input[type="checkbox"] {
         color: #fff;
     }
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #FF5722;
+        color: #32cd32;
     }
 }
 @media(max-width: 736px){
