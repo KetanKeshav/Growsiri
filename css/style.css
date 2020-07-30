@@ -69,7 +69,7 @@ label{
 }
 .header ul li span {
     margin-right: 7px;
-    color: #FF5722;
+    color: #32cd32;
     font-size: 15px;
 }
 .header-right {
@@ -155,7 +155,7 @@ label{
     text-align: center;
 }
 .logo_agile span {
-    color: #FF5722;
+    color: #32cd32;
 }
 .logo_agile h1 a {
     color: #000;
@@ -210,7 +210,7 @@ h3.agileinfo_sign {
     letter-spacing: 1px;
     margin-bottom: 20px;
     text-align: center;
-    color: #7FFF00;
+    color: #32cd32;
 }
 h3.agileinfo_sign span {
     font-weight:300;
@@ -234,7 +234,7 @@ h3.agileinfo_sign span {
 }
 /* //placeholder */
 .modal-body.modal-body-sub_agile p a {
-    color: #FF5722;
+    color: #32cd32;
 }
 .modal-body.modal-body-sub_agile p {
     line-height: 2em;
@@ -281,10 +281,10 @@ a.nav-stylehead {
     font-size: 15px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
-    color: #7FFF00;
+    color: #32cd32;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #7FFF00;
+    color: #32cd32;
 }
 .navbar-default .navbar-nav > li > a {
     color: #000;
@@ -306,7 +306,7 @@ a.nav-stylehead {
 .agile_short_dropdown > li > a:hover {
     text-decoration: none;
     background-color: transparent;
-    color:#7FFF00;
+    color:#32cd32;
 }
 .multi-gd-img img {
     margin-top: 60px;
@@ -323,10 +323,10 @@ ul.multi-column-dropdown li a {
     letter-spacing: 1px;
 }
 ul.multi-column-dropdown li a:hover{
-	color:#7FFF00;
+	color:#32cd32;
 }
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-    background-color: #7FFF00;
+    background-color: #32cd32;
 }
 /*-- //navigation-dropdown --*/
 /* //navigation */
@@ -349,7 +349,7 @@ a.simpleCart_empty {
 button.w3view-cart {
     outline: none;
     border: none;
-    background: #7FFF00;
+    background: #32cd32;
     width: 48px;
     height: 43px;
     font-size: 24px;
@@ -416,7 +416,7 @@ button.w3view-cart {
 }
 .carousel-caption h2 span, .carousel-caption h3 span{
     font-weight: 800;
-    color: #7FFF00;
+    color: #32cd32;
 }
 .carousel-caption p {
     letter-spacing: 5px;
@@ -473,7 +473,7 @@ button.w3view-cart {
     margin-top: 2em;
 }
 .button2:hover, .button2:focus{
-    background: #FF5722;
+    background: #32cd32;
     color:#fff;
 }
 /*-- //banner-button --*/
@@ -492,7 +492,7 @@ button.w3view-cart {
 .snipcart-details input.button {
     font-size: 13px;
     color: #fff;
-    background: #1accfd;
+    background: #32cd32;
     text-decoration: none;
     position: relative;
     border: none;
@@ -513,7 +513,7 @@ button.w3view-cart {
     outline: none;
     text-transform: capitalize;
     padding: .5em 2.5em .5em 1em;
-    border: 1px solid #fe9126;
+    border: 1px solid #32cd32;
     margin: .35em 0 0;
     background: url(../images/cart.png) no-repeat 116px 9px;
 }
@@ -526,7 +526,7 @@ button.w3view-cart {
     width: 548px !important;
 }
 #PPminicartk .minicartk-item a {
-    color: #212121 !important;
+    color: #32cd32 !important;
     font-size: 1em;
     display: block;
     margin-bottom: .5em;
@@ -539,14 +539,14 @@ button.w3view-cart {
     color: #999;
 }
 #PPminicartk .minicartk-remove {
-    background: #3399cc !important;
-    border: 1px solid #3399cc !important;
+    background: #32cd32 !important;
+    border: 1px solid #32cd32 !important;
 	opacity: 1 !important;
 	outline:none;
 }
 #PPminicartk .minicartk-submit {
     color: #fff !important;
-    background: #1accfd !important;
+    background: #32cd32 !important;
     padding: 0 10px !important;
     font-size: 15px;
     letter-spacing: 1px;
@@ -558,7 +558,7 @@ button.w3view-cart {
     transition: 0.5s all;
     bottom: -25px!important;
     right: 0 !important;
-    border: 1px solid #1accfd!important;
+    border: 1px solid #32cd32!important;
     border-radius: 0px!important;
     text-shadow: none!important;
 }
@@ -648,7 +648,7 @@ button.w3view-cart {
     transition: all 0.5s ease-out 0s;
 }
 .link-product-add-cart {
-    background:#FF5722;
+    background:#32cd32;
     color: #fff;
     display: inline-block;
     height: 40px;
@@ -815,7 +815,7 @@ button.w3view-cart {
   background:#f5f4f0;
 }
   h3.agileits-sear-head {
-    color: #FF5722;
+    color: #32cd32;
     margin-bottom: 20px;
     font-size: 21px;
 }
@@ -882,7 +882,7 @@ input.checked {
 /*-- //check input --*/
 /*-- customer --*/
 .customer-rev ul li i {
-    color: #FFC107;
+    color: #32cd32;
 }
 .customer-rev ul li {
    list-style: none;
@@ -1015,7 +1015,7 @@ span.heading-style {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: #FF5722;
+    background-color: #32cd32;
     margin: 0 -4px;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -1024,7 +1024,7 @@ span.heading-style {
 .heading-style i:nth-child(2) {
     width: 12px;
     height: 12px;
-    background-color: #1accfd;
+    background-color: #32cd32;
 }
 h3.tittle-w3l:after {
     content: "";
@@ -1115,7 +1115,7 @@ h3.tittle-w3l:after {
     margin: 13px 0 20px;
 }
 .w3l-pricehkj h6{
-    color: #FF5722;
+    color: #32cd32;
     font-size: 21px;
 }
 .w3l-pricehkj p {
@@ -1164,7 +1164,7 @@ h3.tittle-w3l:after {
     font-size: 17px;
     letter-spacing: 1px;
     width: 18%;
-    background: #FF5722;
+    background: #32cd32;
     border: none;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -1225,7 +1225,7 @@ p.footer-main span {
 .icon-fot span {
     font-size: 33px;
     line-height: 2.1;
-    color: #FF5722;
+    color: #32cd32;
 }
 .text-form-footer{
     padding:0;
@@ -1247,7 +1247,7 @@ p.footer-main span {
     padding: 50px 0;
 }
 .footer-info h3 {
-    color: #1accfd;
+    color: #32cd32;
     font-size: 22px;
     letter-spacing: 1px;
     margin-bottom:25px;
@@ -1270,7 +1270,7 @@ p.footer-main span {
     padding-left: 0;
 }
 .footer-grids ul li a:hover {
-    color: #FF5722;
+    color: #32cd32;
     -webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	-o-transition:.5s all;
@@ -1278,7 +1278,7 @@ p.footer-main span {
 	transition:.5s all;
 }
 .footer-grids ul li i {
-    color: #FF5722;
+    color: #32cd32;
     padding-right: 10px;
 }
 .footer-grids.agile-secomk {
@@ -1343,7 +1343,7 @@ p.footer-main span {
     margin-top: 20px;
 }
 .agileits_app-devices h5 {
-    color: #FF5722;
+    color: #32cd32;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: .5px;
@@ -1396,7 +1396,7 @@ p.footer-main span {
     color: #fff;
 }
 .copy-right p a:hover{
-    color: #f44336;
+    color: #32cd32;
 }
 /*-- //copyright --*/
 /*-- bottom-to-top --*/
@@ -1444,7 +1444,7 @@ ul.w3_short li {
 	letter-spacing:1px;
 }
 ul.w3_short li a {
-    color: #FF5722;
+    color: #32cd32;
     text-decoration: none;
 }
 .services-breadcrumb {
@@ -1499,7 +1499,7 @@ ul.w3_short {
 }
 .contact  input[type="submit"]:hover {
     background: none;
-    color: #FF5722;
+    color: #32cd32;
 }
 .contact::-webkit-input-placeholder {
 	color:#999 !important;
@@ -1515,7 +1515,7 @@ ul.w3_short {
 }
 .contact-right h4 {
     font-size: 30px;
-    color: #FF5722;
+    color: #32cd32;
     letter-spacing: 1px;
 }
 .contact-text {
@@ -1529,7 +1529,7 @@ ul.w3_short {
     text-align: left;
 }
 .contact-text p a{  
-    color:#FF5722; 
+    color:#32cd32; 
 	-webkit-transition: 0.5s all; 
     -moz-transition: 0.5s all;
 	transition: 0.5s all;
@@ -1539,12 +1539,12 @@ ul.w3_short {
 }
 .contact-text p i.fa {
     margin-right: 10px;
-    color: #1accfd;
+    color: #32cd32;
 }
 .map iframe {
     width: 100%;
     min-height: 400px;
-    border: 8px solid #FF5722;
+    border: 8px solid #32cd32;
     padding: 10px;
     display: inherit;
 }
@@ -1617,7 +1617,7 @@ ul.w3_short {
 }
 h3.icon-subheading {
     font-size: 28px;
-    color: #FF5722 !important;
+    color: #32cd32 !important;
     margin: 30px 0 15px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -1768,7 +1768,7 @@ li.list-group-item1 {
 }
 .grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
     margin-bottom: 1em;
-    color: #FF5722;
+    color: #32cd32;
     font-weight: 600;
     font-size: 30px;
     letter-spacing: 2px;
@@ -1784,10 +1784,10 @@ li.list-group-item1 {
 	z-index: 0;
 }
 .badge-primary {
-	background-color: #03a9f4;
+	background-color: #32cd32;
 }
 .badge-success {
-	background-color: #22cdf3;
+	background-color: #32cd32;
 }
 .badge-warning {
 	background-color: #ffc107;
@@ -1969,7 +1969,7 @@ h3.title-w3l.w3l-2:before {
 /*-- //Codes --*/
 /*-- faq-page --*/
 h3.w3-head {
-    color: #FF5722;
+    color: #32cd32;
     font-size: 35px;
     margin: 0 0 35px 0;
 }
@@ -1988,7 +1988,7 @@ ul.faq {
     padding-left: 0.5em;
 }
 .faq-w3agile .faq > li > a { 
-    color: #025061;
+    color: #32cd32;
     font-size: 17px;
     letter-spacing: 0.5px;
 } 
@@ -2020,7 +2020,7 @@ li.subitem1 p {
 .wthree-help form input[type="submit"] {
     font-size: 16px;
     color: #fff;
-    background: #FF5722;
+    background: #32cd32;
     outline: none;
     border: none;
     cursor: pointer;
@@ -2047,7 +2047,7 @@ li.subitem1 p {
 .wthree-help a {
 	color:#fff;
 	padding:10px 20px;
-	background:#1accfd;
+	background:#32cd32;
 	font-size:16px;
 	margin-bottom:50px;
 }
