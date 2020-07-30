@@ -1,32 +1,13 @@
-/*!
- * minicart
- * The Mini Cart is a great way to improve your paypal shopping cart integration.
- *
- * @version 3.0.6
- * @author Jeff Harrell <https://github.com/jeffharrell/>
- * @url http://www.minicartjs.com/
- * @license MIT <https://github.com/jeffharrell/minicart/raw/master/LICENSE.md>
- */
-
 ;(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-
-
-//
-// The shims in this file are not fully implemented shims for the ES5
-// features, but do work for the particular usecases there is in
-// the other modules.
-//
 
 var toString = Object.prototype.toString;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
-// Array.isArray is supported in IE9
 function isArray(xs) {
   return toString.call(xs) === '[object Array]';
 }
 exports.isArray = typeof Array.isArray === 'function' ? Array.isArray : isArray;
 
-// Array.prototype.indexOf is supported in IE9
 exports.indexOf = function indexOf(xs, x) {
   if (xs.indexOf) return xs.indexOf(x);
   for (var i = 0; i < xs.length; i++) {
@@ -35,7 +16,6 @@ exports.indexOf = function indexOf(xs, x) {
   return -1;
 };
 
-// Array.prototype.filter is supported in IE9
 exports.filter = function filter(xs, fn) {
   if (xs.filter) return xs.filter(fn);
   var res = [];
@@ -45,7 +25,6 @@ exports.filter = function filter(xs, fn) {
   return res;
 };
 
-// Array.prototype.forEach is supported in IE9
 exports.forEach = function forEach(xs, fn, self) {
   if (xs.forEach) return xs.forEach(fn, self);
   for (var i = 0; i < xs.length; i++) {
@@ -53,7 +32,6 @@ exports.forEach = function forEach(xs, fn, self) {
   }
 };
 
-// Array.prototype.map is supported in IE9
 exports.map = function map(xs, fn) {
   if (xs.map) return xs.map(fn);
   var out = new Array(xs.length);
@@ -63,7 +41,6 @@ exports.map = function map(xs, fn) {
   return out;
 };
 
-// Array.prototype.reduce is supported in IE9
 exports.reduce = function reduce(array, callback, opt_initialValue) {
   if (array.reduce) return array.reduce(callback, opt_initialValue);
   var value, isValueSet = false;
@@ -87,13 +64,10 @@ exports.reduce = function reduce(array, callback, opt_initialValue) {
   return value;
 };
 
-// String.prototype.substr - negative index don't work in IE8
 if ('ab'.substr(-1) !== 'b') {
   exports.substr = function (str, start, length) {
-    // did we get a negative start, calculate how much it is from the beginning of the string
     if (start < 0) start = str.length + start;
 
-    // call the original function
     return str.substr(start, length);
   };
 } else {
@@ -102,13 +76,11 @@ if ('ab'.substr(-1) !== 'b') {
   };
 }
 
-// String.prototype.trim is supported in IE9
 exports.trim = function (str) {
   if (str.trim) return str.trim();
   return str.replace(/^\s+|\s+$/g, '');
 };
 
-// Function.prototype.bind is supported in IE9
 exports.bind = function () {
   var args = Array.prototype.slice.call(arguments);
   var fn = args.shift();
@@ -119,7 +91,6 @@ exports.bind = function () {
   };
 };
 
-// Object.create is supported in IE9
 function create(prototype, properties) {
   var object;
   if (prototype === null) {
@@ -143,8 +114,6 @@ function create(prototype, properties) {
 }
 exports.create = typeof Object.create === 'function' ? Object.create : create;
 
-// Object.keys and Object.getOwnPropertyNames is supported in IE9 however
-// they do show a description and number property on Error objects
 function notObject(object) {
   return ((typeof object != "object" && typeof object != "function") || object === null);
 }
@@ -163,9 +132,6 @@ function keysShim(object) {
   return result;
 }
 
-// getOwnPropertyNames is almost the same as Object.keys one key feature
-//  is that it returns hidden properties, since that can't be implemented,
-//  this feature gets reduced so it just shows the length property on arrays
 function propertyShim(object) {
   if (notObject(object)) {
     throw new TypeError("Object.getOwnPropertyNames called on a non-object");
@@ -203,7 +169,6 @@ if (new Error().hasOwnProperty('description')) {
   exports.getOwnPropertyNames = getOwnPropertyNames;
 }
 
-// Object.getOwnPropertyDescriptor - supported in IE8 but only on dom elements
 function valueObject(value, key) {
   return { value: value[key] };
 }
@@ -213,7 +178,6 @@ if (typeof Object.getOwnPropertyDescriptor === 'function') {
     Object.getOwnPropertyDescriptor({'a': 1}, 'a');
     exports.getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
   } catch (e) {
-    // IE8 dom element issue - use a try catch and default to valueObject
     exports.getOwnPropertyDescriptor = function (value, key) {
       try {
         return Object.getOwnPropertyDescriptor(value, key);
@@ -228,41 +192,12 @@ if (typeof Object.getOwnPropertyDescriptor === 'function') {
 
 },{}],2:[function(require,module,exports){
 
-// not implemented
-// The reason for having an empty file and not throwing is to allow
-// untraditional implementation of this module.
-
 },{}],3:[function(require,module,exports){
 var process=require("__browserify_process");// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 var util = require('util');
 var shims = require('_shims');
 
-// resolves . and .. elements in a path array with directory names there
-// must be no slashes, empty elements, or device names (c:\) in the array
-// (so also no leading and trailing slashes - it does not distinguish
-// relative and absolute paths)
 function normalizeArray(parts, allowAboveRoot) {
-  // if the path tries to go above the root, `up` ends up > 0
   var up = 0;
   for (var i = parts.length - 1; i >= 0; i--) {
     var last = parts[i];
@@ -276,8 +211,6 @@ function normalizeArray(parts, allowAboveRoot) {
       up--;
     }
   }
-
-  // if the path is allowed to go above the root, restore leading ..s
   if (allowAboveRoot) {
     for (; up--; up) {
       parts.unshift('..');
@@ -286,17 +219,12 @@ function normalizeArray(parts, allowAboveRoot) {
 
   return parts;
 }
-
-// Split a filename into [root, dir, basename, ext], unix version
-// 'root' is just a slash, or nothing.
 var splitPathRe =
     /^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$/;
 var splitPath = function(filename) {
   return splitPathRe.exec(filename).slice(1);
 };
 
-// path.resolve([from ...], to)
-// posix version
 exports.resolve = function() {
   var resolvedPath = '',
       resolvedAbsolute = false;
@@ -304,7 +232,6 @@ exports.resolve = function() {
   for (var i = arguments.length - 1; i >= -1 && !resolvedAbsolute; i--) {
     var path = (i >= 0) ? arguments[i] : process.cwd();
 
-    // Skip empty and invalid entries
     if (!util.isString(path)) {
       throw new TypeError('Arguments to path.resolve must be strings');
     } else if (!path) {
@@ -315,10 +242,6 @@ exports.resolve = function() {
     resolvedAbsolute = path.charAt(0) === '/';
   }
 
-  // At this point the path should be resolved to a full absolute path, but
-  // handle relative paths to be safe (might happen when process.cwd() fails)
-
-  // Normalize the path
   resolvedPath = normalizeArray(shims.filter(resolvedPath.split('/'), function(p) {
     return !!p;
   }), !resolvedAbsolute).join('/');
@@ -326,13 +249,10 @@ exports.resolve = function() {
   return ((resolvedAbsolute ? '/' : '') + resolvedPath) || '.';
 };
 
-// path.normalize(path)
-// posix version
 exports.normalize = function(path) {
   var isAbsolute = exports.isAbsolute(path),
       trailingSlash = shims.substr(path, -1) === '/';
 
-  // Normalize the path
   path = normalizeArray(shims.filter(path.split('/'), function(p) {
     return !!p;
   }), !isAbsolute).join('/');
@@ -347,12 +267,10 @@ exports.normalize = function(path) {
   return (isAbsolute ? '/' : '') + path;
 };
 
-// posix version
 exports.isAbsolute = function(path) {
   return path.charAt(0) === '/';
 };
 
-// posix version
 exports.join = function() {
   var paths = Array.prototype.slice.call(arguments, 0);
   return exports.normalize(shims.filter(paths, function(p, index) {
@@ -363,9 +281,6 @@ exports.join = function() {
   }).join('/'));
 };
 
-
-// path.relative(from, to)
-// posix version
 exports.relative = function(from, to) {
   from = exports.resolve(from).substr(1);
   to = exports.resolve(to).substr(1);
