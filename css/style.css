@@ -377,10 +377,10 @@ button.w3view-cart {
 }
 /*-- carousel-slider --*/  
 .carousel .item{    
-	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
-	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat; 
-	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../images/banner2.jpg) no-repeat;
+	background:-webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(https://vegies-static-images.s3.ap-south-1.amazonaws.com/ce98336e-2cbb-4ac6-8f75-8841a00c38f1.jpg) no-repeat;
+	background:-moz-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(https://vegies-static-images.s3.ap-south-1.amazonaws.com/ce98336e-2cbb-4ac6-8f75-8841a00c38f1.jpg) no-repeat;
+	background:-ms-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(https://vegies-static-images.s3.ap-south-1.amazonaws.com/ce98336e-2cbb-4ac6-8f75-8841a00c38f1.jpg) no-repeat; 
+	background:linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(https://vegies-static-images.s3.ap-south-1.amazonaws.com/ce98336e-2cbb-4ac6-8f75-8841a00c38f1.jpg) no-repeat;
 	background-size:cover;	 
 }
 .carousel .item.item2{   
